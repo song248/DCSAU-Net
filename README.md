@@ -28,3 +28,5 @@ python train.py --dataset your/data/path --csvfile your/csv/path --loss dice --b
 ```
 python eval_binary.py --dataset your/data/path --csvfile your/csv/path --model save_models/epoch_last.pth --debug True
 ```
+![train_graph](./train.png)
+![valid_graph](./valid.png)
